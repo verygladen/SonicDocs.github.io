@@ -1,9 +1,33 @@
 site_name: Sonic Docs
 site_url: https://sonicdocs.github.io/
+nav:
+  - Home: index.md
+  - Guides:
+    - guide/index.md
+    - Sonic Generations: sonic2013.md
+    - Sonic Lost World: sonic2013.md
+    - Sonic Forces: sonic2013.md
+  - Technical Reference:
+    - ref/index.md
+    - Hedgehog Engine:
+      - ref/hh/index.md
+      - Mirage:
+        - ref/hh/mirage/index.md
+        - Formats: ref/hh/mirage/formats.md
+  - Resources: resources.md
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
 extra_css:
   - stylesheets/extra.css
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
   palette:
     - scheme: slate
       toggle:
