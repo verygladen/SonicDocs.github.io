@@ -8,12 +8,12 @@ nav:
     - Sonic Lost World: sonic2013.md
     - Sonic Forces: sonic2013.md
   - Technical Reference:
-    - ref/index.md
+    - reference/index.md
     - Hedgehog Engine:
-      - ref/hh/index.md
+      - reference/hh/index.md
       - Mirage:
-        - ref/hh/mirage/index.md
-        - Formats: ref/hh/mirage/formats.md
+        - reference/hh/mirage/index.md
+        - Formats: reference/hh/mirage/formats.md
   - Resources: resources.md
 markdown_extensions:
   - pymdownx.highlight
